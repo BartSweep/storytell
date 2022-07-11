@@ -1,5 +1,7 @@
 <template>
+  <div class="app">
     <Image title="Story tell" msg="Vertel het verhaal bij de foto's"/>
+  </div>
 </template>
 
 <script>
@@ -14,7 +16,7 @@ export default {
 </script>
 
 <style>
-#app {
+.app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
